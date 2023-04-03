@@ -14,15 +14,20 @@ html {
 body {
     background-color: #181818;
     font-size: -apple-system,BlinkMacSystemFont,Segoe\ UI,Roboto,Helvetica\ Neue,Arial,Noto\ Sans,sans-serif;
-    color: white;
+    color: $white;
     line-height: 1.5;
 }
 
 /* Blocks */
 @import "blocks/page";
 @import "blocks/header";
+@import "blocks/nav";
+@import "blocks/subnav";
+@import "blocks/search";
 @import "blocks/sidebar";
 @import "blocks/main";
+@import "blocks/stories";
+@import "blocks/add-post";
 @import "blocks/container";
 @import "blocks/profile";
 @import "blocks/social";
