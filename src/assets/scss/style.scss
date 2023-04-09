@@ -16,6 +16,10 @@ body {
     font-size: -apple-system,BlinkMacSystemFont,Segoe\ UI,Roboto,Helvetica\ Neue,Arial,Noto\ Sans,sans-serif;
     color: $white;
     line-height: 1.5;
+    
+    &.no-scroll{
+        overflow: hidden;
+    }
 }
 
 a{
@@ -48,4 +52,6 @@ a{
 @import "blocks/form";
 @import "blocks/works";
 @import "blocks/tags";
+@import "blocks/cabinet";
+@import "blocks/modal";
 
